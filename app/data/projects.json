@@ -1,0 +1,35 @@
+[
+	{
+		"id":0,
+		"title":"NPTV",
+		"type":"work",
+		"short_descr":"sdalndsala sdnlasndasas sndlnasdanldnasl",
+		"main_img":"",
+		"display":"homepage",
+		"home_img":"asds",
+		"project_page":"nptv"
+	},
+	{
+		"id":0,
+		"title":"Unison",
+		"type":"work",
+		"short_descr":"sdalndsala sdnlasndasas sndlnasdanldnasl",
+		"main_img":"",
+		"links": "sadasd",
+		"display":"homepage",
+		"home_img":"asds",
+		"project_page":"unison"
+	},
+	{
+		"id":0,
+		"title":"Shake me up",
+		"type":"lab",
+		"short_descr":"sdalndsala sdnlasndasas sndlnasdanldnasl",
+		"main_img":"",
+		"links": "sadasd",
+		"display":"",
+		"home_img":"asds",
+		"project_page":"shakemeup"
+	}
+]
+

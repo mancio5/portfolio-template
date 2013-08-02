@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="portfolio">
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <link rel="stylesheet" href="css/flat-ui.css"/>
+  <link rel="stylesheet" href="css/custom.css"/>
+</head>
+<body>
+    <div id="nav">
+        <a href="#/home">Home</a>
+        <a href="#/works">Works</a>
+        <a href="#/lab">Lab</a>
+        <a href="#/about">About</a>
+        <a href="#/contact">Contact</a>
+    </div>
+    <div ng-view></div>
+    <!-- In production use:
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="lib/bootstrap/ui-bootstrap-tpls-0.4.0.min.js"></script>
+  
+</body>
+</html>

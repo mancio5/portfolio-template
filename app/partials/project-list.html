@@ -1,0 +1,20 @@
+{{title}}
+<section id="projects">
+	<ul class="container-fluid">
+		<li ng-repeat="project in projects | filter:type" class="row-fluid project">
+			<div class="container">
+				<div class="row">
+					<!-- {{project | json}} -->
+					<div class="span8">
+						<a ng-href="#/project/{{project.project_page}}"><h4>{{project.title | uppercase}}</h4></a><span>{{project.type}}<span>
+						<p>{{project.short_descr}}</p>
+						<a ng-href="#/project/{{project.project_page}}">Read more</a>
+					</div>
+					<div class="proj-img span4">
+						<img ng-src="{{project.home-img}}">
+					</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+</section>
